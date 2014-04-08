@@ -13,7 +13,8 @@ struct F{
   int prime[mm_max];
   pii mem2[mm_max];
   int mem[mem_max][mem_max];
-  public: void init(){
+  public:
+  void init(){
     make_prime();
     for(int i=0;i<mem_max;i++){
       for(int j=0;j<mem_max;j++){
